@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 4
+names: ['glass', 'metal', 'paper', 'plastic']
+
+roboflow:
+  workspace: semih-yagci
+  project: iue_garbage_batch-1-2-p0c5a
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/semih-yagci/iue_garbage_batch-1-2-p0c5a/dataset/1
